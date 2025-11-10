@@ -1,0 +1,105 @@
+{
+  "features": [
+    {
+      "name": "Country",
+      "type": "category"
+    },
+    {
+      "name": "Year",
+      "type": "numeric"
+    },
+    {
+      "name": "Status",
+      "type": "category"
+    },
+    {
+      "name": "Adult_Mortality",
+      "type": "numeric"
+    },
+    {
+      "name": "infant_deaths",
+      "type": "numeric"
+    },
+    {
+      "name": "Alcohol",
+      "type": "numeric"
+    },
+    {
+      "name": "percentage_expenditure",
+      "type": "numeric"
+    },
+    {
+      "name": "Hepatitis_B",
+      "type": "numeric"
+    },
+    {
+      "name": "Measles",
+      "type": "numeric"
+    },
+    {
+      "name": "BMI",
+      "type": "numeric"
+    },
+    {
+      "name": "under_five_deaths",
+      "type": "numeric"
+    },
+    {
+      "name": "Polio",
+      "type": "numeric"
+    },
+    {
+      "name": "Total_expenditure",
+      "type": "numeric"
+    },
+    {
+      "name": "Diphtheria",
+      "type": "numeric"
+    },
+    {
+      "name": "HIVAIDS",
+      "type": "numeric"
+    },
+    {
+      "name": "GDP",
+      "type": "numeric"
+    },
+    {
+      "name": "Population",
+      "type": "numeric"
+    },
+    {
+      "name": "thinness__1_19_years",
+      "type": "numeric"
+    },
+    {
+      "name": "thinness_5_9_years",
+      "type": "numeric"
+    },
+    {
+      "name": "Income_composition_of_resources",
+      "type": "numeric"
+    },
+    {
+      "name": "Schooling",
+      "type": "numeric"
+    }
+  ],
+  "task": "regression",
+  "target": "Life_expectancy",
+  "metrics": {
+    "RMSE": 1.9312939469750674,
+    "R2": 0.9600872104594483
+  },
+  "split": {
+    "train": 0.7,
+    "test": 0.3
+  },
+  "n_samples": 2938,
+  "model": {
+    "type": "Ridge",
+    "best_params": {
+      "alpha": 0.01
+    }
+  }
+}
