@@ -1,8 +1,4 @@
-# app.py
-"""
-Polished Streamlit app for regression & classification projects.
-Fixed & robust version (OneHotEncoder compatibility, safe model lookup, continuous-target checks).
-"""
+
 import streamlit as st
 st.set_page_config(page_title="Project Model Builder — Polished", layout="wide", initial_sidebar_state="expanded")
 
@@ -91,7 +87,7 @@ def is_continuous_target(series, uniq_threshold=20):
     return False
 
 # ---------- UI ----------
-st.title("🚀 Project Model Builder ")
+st.title("🚀 PREDICTIVE MODELLING OF LIFE EXPECTANCY USING REGRESSION AND CLASSIFICATION ")
 st.write("Upload your CSV, pick a target column, train multiple models, compare metrics, visualize results, and export the best model.")
 
 with st.sidebar:
@@ -475,4 +471,4 @@ if not results:
     st.info("Train models using the 'Train selected models' button. App will show model comparison, plots and allow prediction & export.")
 
 st.markdown("---")
-st.write("Made with ❤️  — App prepared to satisfy project requirements: multiple models, 70/30 split, visualizations, prediction form, and model export.")
+
